@@ -26,7 +26,8 @@ SECRET_KEY = 'django-insecure-bu-u^(x&*qllbv-@16pwnweq$^j5qv#gwb$@3t2@rnvv2hu5o-
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '0.0.0.0']
+
 
 
 # Application definition
@@ -41,6 +42,7 @@ INSTALLED_APPS = [
     'oduma_platform.core',
     # 'oduma_platform.templates',
     'tailwind',
+
     # 'theme',
     # 'django_browser_reload',
 ]
